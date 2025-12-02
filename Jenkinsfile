@@ -7,7 +7,7 @@ pipeline {
              steps {
                  script {
                      echo "Testing the application..."
-                     sh "ls -l"
+                     sh """ ls -l """
                  }
              }
          }
