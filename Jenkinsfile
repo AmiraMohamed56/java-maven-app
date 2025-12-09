@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'maven-3.9.9' // Ensure Maven is configured in Jenkins
+        maven 'M399' // Ensure Maven is configured in Jenkins
     }
     environment {
         IMAGE_NAME = 'AmiraaMohamed/java-maven-app2'
